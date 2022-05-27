@@ -18,14 +18,21 @@ public class ListOefening {
         clubNames.add("FC Twente");
 
         // Vraag -1: Maak een methode die al taak heeft om de list per regel uit te printen.
+        for(int i = 0; i < clubNames.size(); i++){
+            System.out.println(clubNames.get(i));
+        }
 
         // Vraag 0: Maak een methode die als taak heeft om de list uit te printen: positie + inhoud.
         // Bovenstaande list zou dan dit zijn:
         // 0 - Ajax
         // 1 - PSv
         // etc...
+        for(int i = 0; i < clubNames.size(); i++){
+            System.out.println(i + " - " + clubNames.get(i));
+        }
 
         // Vraag 1: Maak een methode die checkt of een club al in de lijst zit en voeg deze anders toe.
+
 
         // Vraag 2: Maak een methode die de positie van de club in de lijst teruggeeft.
 
@@ -44,5 +51,7 @@ public class ListOefening {
 
 
     }
+
+
 
 }
