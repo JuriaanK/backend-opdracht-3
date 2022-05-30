@@ -11,5 +11,18 @@ public class DeelbaarDoorVijf {
 
     public static void main(String[] sammieKijkOmhoog) {
         int chosenNumber = 44;
+        fiveable(chosenNumber);
+    }
+
+    public static void fiveable (int chosenNumber){
+        double userNumber = chosenNumber;
+        double Five = 5;
+        double answer = userNumber/Five;
+        if(answer % 1 != 0){
+            System.out.println("ondeelbaar door vijf");
+        }
+        else{
+            System.out.println("deelbaar door vijf");
+        }
     }
 }
